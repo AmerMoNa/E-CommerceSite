@@ -5,9 +5,8 @@
     <classes>
       <class name="E_commerceSite.E_commerceSite.AppTest">
         <methods>
+          <include name="logout"/>
           <include name="mySetup"/>
-          <include name="buyAProduct"/>
-          <include name="searchProducts"/>
         </methods>
       </class> <!-- E_commerceSite.E_commerceSite.AppTest -->
     </classes>

@@ -1,164 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="2" failed="2" skipped="0">
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-06-19T11:26:48 PDT" name="Default suite" finished-at="2025-06-19T11:31:34 PDT" duration-ms="285673">
+  <suite started-at="2025-06-21T01:08:13 PDT" name="Default suite" finished-at="2025-06-21T01:08:57 PDT" duration-ms="43254">
     <groups>
     </groups>
-    <test started-at="2025-06-19T11:26:48 PDT" name="Default test" finished-at="2025-06-19T11:31:34 PDT" duration-ms="285673">
+    <test started-at="2025-06-21T01:08:13 PDT" name="Default test" finished-at="2025-06-21T01:08:57 PDT" duration-ms="43254">
       <class name="E_commerceSite.E_commerceSite.AppTest">
-        <test-method is-config="true" signature="mySetup()[pri:0, instance:E_commerceSite.E_commerceSite.AppTest@40dff0b7]" started-at="2025-06-19T11:26:48 PDT" name="mySetup" finished-at="2025-06-19T11:28:17 PDT" duration-ms="88436" status="PASS">
+        <test-method is-config="true" signature="mySetup()[pri:0, instance:E_commerceSite.E_commerceSite.AppTest@2d36e77e]" started-at="2025-06-21T01:08:13 PDT" name="mySetup" finished-at="2025-06-21T01:08:18 PDT" duration-ms="4213" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mySetup -->
-        <test-method signature="signUp()[pri:1, instance:E_commerceSite.E_commerceSite.AppTest@40dff0b7]" started-at="2025-06-19T11:28:17 PDT" name="signUp" finished-at="2025-06-19T11:28:22 PDT" duration-ms="4956" status="PASS">
+        <test-method signature="signUp()[pri:1, instance:E_commerceSite.E_commerceSite.AppTest@2d36e77e]" started-at="2025-06-21T01:08:18 PDT" name="signUp" finished-at="2025-06-21T01:08:20 PDT" duration-ms="2640" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signUp -->
-        <test-method signature="accountInformation()[pri:2, instance:E_commerceSite.E_commerceSite.AppTest@40dff0b7]" started-at="2025-06-19T11:28:22 PDT" name="accountInformation" finished-at="2025-06-19T11:29:49 PDT" duration-ms="87577" status="PASS">
+        <test-method signature="accountInformation()[pri:2, instance:E_commerceSite.E_commerceSite.AppTest@2d36e77e]" started-at="2025-06-21T01:08:20 PDT" name="accountInformation" finished-at="2025-06-21T01:08:25 PDT" duration-ms="4748" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- accountInformation -->
-        <test-method signature="searchProducts()[pri:3, instance:E_commerceSite.E_commerceSite.AppTest@40dff0b7]" started-at="2025-06-19T11:29:49 PDT" name="searchProducts" finished-at="2025-06-19T11:31:34 PDT" duration-ms="104545" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchWindowException">
-            <message>
-              <![CDATA[no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=137.0.7151.104)
-Build info: version: '4.32.0', revision: 'd17c8aa950'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [3fe51d288134197ac77a11dadfc1c667, findElement {value=search_product, using=id}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.104, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\AMERNA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51666}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51666/devtoo..., se:cdpVersion: 137.0.7151.104, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 3fe51d288134197ac77a11dadfc1c667]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=137.0.7151.104)
-Build info: version: '4.32.0', revision: 'd17c8aa950'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [3fe51d288134197ac77a11dadfc1c667, findElement {value=search_product, using=id}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.104, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\AMERNA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51666}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51666/devtoo..., se:cdpVersion: 137.0.7151.104, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 3fe51d288134197ac77a11dadfc1c667
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-at E_commerceSite.E_commerceSite.AppTest.searchProducts(AppTest.java:109)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+        <test-method signature="searchProducts()[pri:3, instance:E_commerceSite.E_commerceSite.AppTest@2d36e77e]" started-at="2025-06-21T01:08:25 PDT" name="searchProducts" finished-at="2025-06-21T01:08:29 PDT" duration-ms="3909" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchProducts -->
-        <test-method signature="buyAProduct()[pri:4, instance:E_commerceSite.E_commerceSite.AppTest@40dff0b7]" started-at="2025-06-19T11:31:34 PDT" name="buyAProduct" finished-at="2025-06-19T11:31:34 PDT" duration-ms="35" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchWindowException">
-            <message>
-              <![CDATA[no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=137.0.7151.104)
-Build info: version: '4.32.0', revision: 'd17c8aa950'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [3fe51d288134197ac77a11dadfc1c667, findElements {value=Add to cart, using=link text}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.104, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\AMERNA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51666}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51666/devtoo..., se:cdpVersion: 137.0.7151.104, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 3fe51d288134197ac77a11dadfc1c667]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=137.0.7151.104)
-Build info: version: '4.32.0', revision: 'd17c8aa950'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [3fe51d288134197ac77a11dadfc1c667, findElements {value=Add to cart, using=link text}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.104, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\AMERNA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51666}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51666/devtoo..., se:cdpVersion: 137.0.7151.104, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 3fe51d288134197ac77a11dadfc1c667
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElements(ElementLocation.java:182)
-at org.openqa.selenium.remote.ElementLocation.findElements(ElementLocation.java:103)
-at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:381)
-at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:375)
-at E_commerceSite.E_commerceSite.AppTest.buyAProduct(AppTest.java:120)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+        <test-method signature="addProduct()[pri:4, instance:E_commerceSite.E_commerceSite.AppTest@2d36e77e]" started-at="2025-06-21T01:08:29 PDT" name="addProduct" finished-at="2025-06-21T01:08:29 PDT" duration-ms="422" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- buyAProduct -->
+        </test-method> <!-- addProduct -->
+        <test-method signature="brands()[pri:5, instance:E_commerceSite.E_commerceSite.AppTest@2d36e77e]" started-at="2025-06-21T01:08:29 PDT" name="brands" finished-at="2025-06-21T01:08:35 PDT" duration-ms="5649" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- brands -->
+        <test-method signature="cartPage()[pri:6, instance:E_commerceSite.E_commerceSite.AppTest@2d36e77e]" started-at="2025-06-21T01:08:35 PDT" name="cartPage" finished-at="2025-06-21T01:08:44 PDT" duration-ms="9200" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cartPage -->
+        <test-method signature="contactPage()[pri:7, instance:E_commerceSite.E_commerceSite.AppTest@2d36e77e]" started-at="2025-06-21T01:08:44 PDT" name="contactPage" finished-at="2025-06-21T01:08:49 PDT" duration-ms="4422" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactPage -->
+        <test-method signature="logoutAndLogin()[pri:8, instance:E_commerceSite.E_commerceSite.AppTest@2d36e77e]" started-at="2025-06-21T01:08:49 PDT" name="logoutAndLogin" finished-at="2025-06-21T01:08:50 PDT" duration-ms="1794" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutAndLogin -->
+        <test-method signature="deleteAccount()[pri:9, instance:E_commerceSite.E_commerceSite.AppTest@2d36e77e]" started-at="2025-06-21T01:08:50 PDT" name="deleteAccount" finished-at="2025-06-21T01:08:57 PDT" duration-ms="6227" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteAccount -->
       </class> <!-- E_commerceSite.E_commerceSite.AppTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
