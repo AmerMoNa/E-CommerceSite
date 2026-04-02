@@ -2,48 +2,48 @@
 <testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-06-21T01:08:13 PDT" name="Default suite" finished-at="2025-06-21T01:08:57 PDT" duration-ms="43254">
+  <suite started-at="2026-04-02T21:51:34 EET" name="Default suite" finished-at="2026-04-02T21:52:40 EET" duration-ms="66424">
     <groups>
     </groups>
-    <test started-at="2025-06-21T01:08:13 PDT" name="Default test" finished-at="2025-06-21T01:08:57 PDT" duration-ms="43254">
+    <test started-at="2026-04-02T21:51:34 EET" name="Default test" finished-at="2026-04-02T21:52:40 EET" duration-ms="66424">
       <class name="E_commerceSite.E_commerceSite.AppTest">
-        <test-method is-config="true" signature="mySetup()[pri:0, instance:E_commerceSite.E_commerceSite.AppTest@2d36e77e]" started-at="2025-06-21T01:08:13 PDT" name="mySetup" finished-at="2025-06-21T01:08:18 PDT" duration-ms="4213" status="PASS">
+        <test-method is-config="true" signature="mySetup()[pri:0, instance:E_commerceSite.E_commerceSite.AppTest@53f0a4cb]" started-at="2026-04-02T21:51:34 EET" name="mySetup" finished-at="2026-04-02T21:51:39 EET" duration-ms="5680" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mySetup -->
-        <test-method signature="signUp()[pri:1, instance:E_commerceSite.E_commerceSite.AppTest@2d36e77e]" started-at="2025-06-21T01:08:18 PDT" name="signUp" finished-at="2025-06-21T01:08:20 PDT" duration-ms="2640" status="PASS">
+        <test-method signature="signUp()[pri:1, instance:E_commerceSite.E_commerceSite.AppTest@53f0a4cb]" started-at="2026-04-02T21:51:39 EET" name="signUp" finished-at="2026-04-02T21:51:43 EET" duration-ms="3527" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signUp -->
-        <test-method signature="accountInformation()[pri:2, instance:E_commerceSite.E_commerceSite.AppTest@2d36e77e]" started-at="2025-06-21T01:08:20 PDT" name="accountInformation" finished-at="2025-06-21T01:08:25 PDT" duration-ms="4748" status="PASS">
+        <test-method signature="accountInformation()[pri:2, instance:E_commerceSite.E_commerceSite.AppTest@53f0a4cb]" started-at="2026-04-02T21:51:43 EET" name="accountInformation" finished-at="2026-04-02T21:51:53 EET" duration-ms="9786" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- accountInformation -->
-        <test-method signature="searchProducts()[pri:3, instance:E_commerceSite.E_commerceSite.AppTest@2d36e77e]" started-at="2025-06-21T01:08:25 PDT" name="searchProducts" finished-at="2025-06-21T01:08:29 PDT" duration-ms="3909" status="PASS">
+        <test-method signature="searchProducts()[pri:3, instance:E_commerceSite.E_commerceSite.AppTest@53f0a4cb]" started-at="2026-04-02T21:51:53 EET" name="searchProducts" finished-at="2026-04-02T21:52:03 EET" duration-ms="10272" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchProducts -->
-        <test-method signature="addProduct()[pri:4, instance:E_commerceSite.E_commerceSite.AppTest@2d36e77e]" started-at="2025-06-21T01:08:29 PDT" name="addProduct" finished-at="2025-06-21T01:08:29 PDT" duration-ms="422" status="PASS">
+        <test-method signature="addProduct()[pri:4, instance:E_commerceSite.E_commerceSite.AppTest@53f0a4cb]" started-at="2026-04-02T21:52:03 EET" name="addProduct" finished-at="2026-04-02T21:52:04 EET" duration-ms="1260" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addProduct -->
-        <test-method signature="brands()[pri:5, instance:E_commerceSite.E_commerceSite.AppTest@2d36e77e]" started-at="2025-06-21T01:08:29 PDT" name="brands" finished-at="2025-06-21T01:08:35 PDT" duration-ms="5649" status="PASS">
+        <test-method signature="brands()[pri:5, instance:E_commerceSite.E_commerceSite.AppTest@53f0a4cb]" started-at="2026-04-02T21:52:04 EET" name="brands" finished-at="2026-04-02T21:52:11 EET" duration-ms="6755" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- brands -->
-        <test-method signature="cartPage()[pri:6, instance:E_commerceSite.E_commerceSite.AppTest@2d36e77e]" started-at="2025-06-21T01:08:35 PDT" name="cartPage" finished-at="2025-06-21T01:08:44 PDT" duration-ms="9200" status="PASS">
+        <test-method signature="cartPage()[pri:6, instance:E_commerceSite.E_commerceSite.AppTest@53f0a4cb]" started-at="2026-04-02T21:52:11 EET" name="cartPage" finished-at="2026-04-02T21:52:24 EET" duration-ms="12828" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cartPage -->
-        <test-method signature="contactPage()[pri:7, instance:E_commerceSite.E_commerceSite.AppTest@2d36e77e]" started-at="2025-06-21T01:08:44 PDT" name="contactPage" finished-at="2025-06-21T01:08:49 PDT" duration-ms="4422" status="PASS">
+        <test-method signature="contactPage()[pri:7, instance:E_commerceSite.E_commerceSite.AppTest@53f0a4cb]" started-at="2026-04-02T21:52:24 EET" name="contactPage" finished-at="2026-04-02T21:52:30 EET" duration-ms="6018" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- contactPage -->
-        <test-method signature="logoutAndLogin()[pri:8, instance:E_commerceSite.E_commerceSite.AppTest@2d36e77e]" started-at="2025-06-21T01:08:49 PDT" name="logoutAndLogin" finished-at="2025-06-21T01:08:50 PDT" duration-ms="1794" status="PASS">
+        <test-method signature="logoutAndLogin()[pri:8, instance:E_commerceSite.E_commerceSite.AppTest@53f0a4cb]" started-at="2026-04-02T21:52:30 EET" name="logoutAndLogin" finished-at="2026-04-02T21:52:36 EET" duration-ms="5641" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logoutAndLogin -->
-        <test-method signature="deleteAccount()[pri:9, instance:E_commerceSite.E_commerceSite.AppTest@2d36e77e]" started-at="2025-06-21T01:08:50 PDT" name="deleteAccount" finished-at="2025-06-21T01:08:57 PDT" duration-ms="6227" status="PASS">
+        <test-method signature="deleteAccount()[pri:9, instance:E_commerceSite.E_commerceSite.AppTest@53f0a4cb]" started-at="2026-04-02T21:52:36 EET" name="deleteAccount" finished-at="2026-04-02T21:52:40 EET" duration-ms="4476" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteAccount -->
